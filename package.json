@@ -1,0 +1,18 @@
+{
+  "name": "sample-hapi-api",
+  "version": "1.0.0",
+  "description": "Simple API to demonstrate a Hello-World using HAPI",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi",
+    "api"
+  ],
+  "author": "Felipe Guerra",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2"
+  }
+}
