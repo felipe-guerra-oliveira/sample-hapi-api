@@ -10,7 +10,7 @@ const init = async () => {
 
     server.route({
         method: 'GET',
-        path: '/health',
+        path: '/hello-world/health',
         handler: (request, h) => {
             return "UP";
         }
